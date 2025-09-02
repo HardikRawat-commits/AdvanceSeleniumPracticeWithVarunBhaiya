@@ -81,7 +81,7 @@ public class ListenersImplementation implements ITestListener,ISuiteListener  {
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		String methodName=result.getMethod().getMethodName();
-		System.out.println(methodName + "This is skipped");
+		Reporter.log(methodName + "This is skipped");
 		
 	
 	}

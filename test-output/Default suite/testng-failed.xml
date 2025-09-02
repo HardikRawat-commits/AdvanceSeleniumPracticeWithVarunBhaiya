@@ -3,21 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PracticeDay13Listeners.DemoTest">
+      <class name="PracticeDay13Listeners.DemoTest2">
         <methods>
-          <include name="vtiger2"/>
-          <include name="postCondition"/>
+          <include name="vtiger"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="openBro"/>
           <include name="reportBackup"/>
           <include name="vtiger3"/>
+          <include name="vtiger2"/>
           <include name="reportConfig"/>
-          <include name="vtiger"/>
-          <include name="logout"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
-          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="preCon"/>
           <include name="login"/>
         </methods>
-      </class> <!-- PracticeDay13Listeners.DemoTest -->
+      </class> <!-- PracticeDay13Listeners.DemoTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
